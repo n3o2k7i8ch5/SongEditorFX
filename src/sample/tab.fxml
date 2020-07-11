@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+    <Tab xmlns:fx="http://javafx.com/fxml/1" text="Zwrotka">
+        <content>
+            <SplitPane dividerPositions="0.6567656765676567" prefHeight="1000.0" prefWidth="1000.0">
+                <items>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                        <children>
+                            <TextArea fx:id="textSong" layoutX="97.0" layoutY="170.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0" />
+                        </children>
+                    </AnchorPane>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                        <children>
+                            <BorderPane layoutX="5.0" layoutY="168.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <center>
+                                    <TextArea fx:id="textChords" prefHeight="200.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+                                </center>
+                                <top>
+                                    <Button fx:id="buttonRepeatChords" mnemonicParsing="false" text="Chwyty z pierwszej zwrotki" BorderPane.alignment="TOP_LEFT" prefWidth="800.0">
+                                        <BorderPane.margin>
+                                            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                                        </BorderPane.margin>
+                                    </Button>
+                                </top>
+                            </BorderPane>
+                        </children>
+                    </AnchorPane>
+                </items>
+            </SplitPane>
+        </content>
+    </Tab>
+
